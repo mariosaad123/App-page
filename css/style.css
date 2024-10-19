@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+header.header {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header.header .overlay {
+    background: linear-gradient(to bottom, rgba(34, 8, 12, 0.7), rgba(39, 7, 45, 0.7));
+    padding-top: 90px;
+    position: relative;
+}
+
+header.header .overlay .header-block {
+    margin-top: 50px;
+}
+
+header.header .overlay .header-block .header-brand {
+    margin-bottom: 30px;
+}
+
+header.header .overlay .header-block h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FF00E6;
+    line-height: 38px;
+    margin-bottom: 30px;
+}
+
+header.header .overlay .header-block p {
+    font-size: 18px;
+    line-height: 33px;
+    color: white;
+    margin-bottom: 85px;
+}
+
+header.header .overlay .header-buttons a img {
+    width: 250px;
+    margin-bottom: 90px;
+}
+
+header.header .overlay .header-buttons a:last-child img {
+    height: 65px;
+}
+
+header.header .overlay .header-img img {
+    max-width: 100%;
+    position: absolute;
+    bottom: -20px;
+    padding-bottom: 90px;
+}
+
+
+/* قسم المميزات */
+section.features {
+    padding: 20px 0;
+}
+
+section.features .features{
+    margin-top: 90px;
+}
+
+section.features .features.text-left {
+    direction: ltr;
+}
+
+section.features .features .d-flex {
+    margin-bottom: 70px;
+}
+
+section.features .features .d-flex .flex-shrink-0 i {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: white;
+    background-color: rgb(68, 13, 78);
+    text-align: center;
+    display: block;
+    border-radius: 2px;
+}
+
+section.features .features .d-flex h5 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF00E6;
+    margin-bottom: 12px;  
+}
+
+section.features .features .d-flex p {
+    font-size: 15px;
+    line-height: 20px;
+    color: black;
+}
+
+.feature-img {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+/* قسم الاختيارات */
+section.option {
+    padding-top: 60px;
+    background: linear-gradient(to bottom, rgb(34, 8, 12), rgb(39, 7, 45));
+    position: relative;
+}
+
+section.option .options {
+    margin-right: 20px;
+}
+
+section.option .options .d-flex {
+    margin-bottom: 60px;
+}
+
+section.option .options .d-flex img {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: white;
+    text-align: center;
+    display: block;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+section.option .options .d-flex h5 {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #FF00E6;
+}
+
+section.option .options .d-flex p {
+    font-size: 15px;
+    line-height: 20px;
+    color: white;
+}
+
+section.option .option-img img {
+    position: absolute;
+    right: -10px;
+    width: 60%;
+    top: 43px;
+}
+
+
+/* قسم الشرائح */
+section.slider {
+    padding: 80px 0;
+}
+
+section.slider .slider-text h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+}
+
+section.slider .slider-carousel .carousel-inner {
+    width: 60%;
+    margin: auto;
+}
+
+section.slider .slider-carousel .carousel-control-prev,
+section.slider .slider-carousel .carousel-control-next {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #FF00E6;
+    border-radius: 50%;
+    color: #FF00E6;
+    opacity: 1;
+    margin-top: 130px;
+}
+
+section.slider .slider-carousel .carousel-control-prev:hover,
+section.slider .slider-carousel .carousel-control-next:hover {
+    color: white;
+    background-color: #FF00E6;
+}
+
+section.slider .slider-carousel .carousel-indicators {
+    margin-bottom: -50px;
+}
+
+section.slider .slider-carousel .carousel-indicators button {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #FF00E6;
+    border-radius: 50%;
+}
+
+section.slider .slider-carousel .carousel-indicators button.active {
+    background-color: #FF00E6;
+}
+
+
+/* قسم الاسئلة الاكثر شيوعاً */
+section.faq {
+    background-image: url(../images/bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+section.faq .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 70px 0;
+}
+
+section.faq .overlay .faq-title h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 60px;
+}
+
+section.faq .overlay .accordion .accordion-item {
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-bottom: 25px;
+    border: 0;
+    border-radius: 0;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button {
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+    border-bottom: 0;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button i {
+    margin-right: auto;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button.collapsed i {
+    transform: rotate(180deg);
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button::after {
+    content: none;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button:focus {
+    border-color: transparent;
+    box-shadow: 0 0 0 0;
+}
+
+section.faq .overlay .accordion .accordion-body{
+    font-size: 15px;
+    line-height: 20px;
+    color: #c9c9c9;
+}
+
+
+
+/* الذيل */
+footer.footer {
+    background: linear-gradient(to bottom, rgba(34, 8, 12, 1), rgba(39, 7, 45, 1));
+    padding-top: 70px;
+}
+
+footer.footer .top-footer {
+    border-bottom: 2px solid #292828;
+
+}
+
+footer.footer .top-footer .widget h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF00E6;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #292828;
+    position: relative;
+}
+
+footer.footer .top-footer .widget h4::after {
+    content: "";
+    width: 90px;
+    height: 2px;
+    border-bottom: 2px solid #FF00E6;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+}
+
+footer.footer .top-footer .widget p.aboutus-p {
+    font-size: 18px;
+    line-height: 40px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+footer.footer .top-footer .widget .list-inline-item a {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    color: #FF00E6;
+    display: block;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+footer.footer .top-footer .widget .list-inline-item a:hover {
+    background-color: #FF00E6;
+    color: white;
+}
+
+footer.footer .top-footer .widget ul.tweet {
+    list-style: none;
+    padding: 0;
+}
+
+footer.footer .top-footer .widget ul.tweet li:not(:last-child) {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #292828;
+}
+
+footer.footer .top-footer .widget ul.tweet li p {
+    font-size: 15px;
+    color: white;
+    line-height: 24px;
+    display: inline;
+    margin-right: 5px;
+}
+
+footer.footer .top-footer .widget ul.tweet li i {
+    color: #FF00E6;
+}
+
+footer.footer .top-footer .widget form input {
+    font-size: 14px;
+    color: #2c2b2b;
+    line-height: 25px;
+    border: 0;
+    margin-bottom: 15px;
+    background-color: #c6c6c6;
+    border-radius: 0;
+    text-align: right;
+}
+
+footer.footer .top-footer .widget form button {
+    font-size: 14px;
+    line-height: 25px;
+    color: white;
+    background-color: #FF00E6;
+    border-radius: 0;
+}
+
+footer.footer .top-footer .widget form .invalid-feedback {
+    margin-top: -15px;
+    margin-bottom: 15px;
+}
+
+footer.footer .copyright {
+    font-size: 15px;
+    line-height: 75px;
+    color: #c9c9c9;
+    text-align: center;
+}
+
+
+@media (max-width: 992px) and (min-width: 768px) {
+    header.header .overlay {
+        padding: 0;
+    }
+
+    header.header .overlay .header-img img {
+        right: -70px;
+    }
+
+    section.features .features .d-flex {
+        margin-bottom: 40px;
+    }
+
+    section.features .features .d-flex h5 {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    section.features .features .d-flex p {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .feature-img {
+        display: flex;
+        justify-content: center;
+        height: 88%;
+    }
+
+    section.option .option-img img {
+        position: absolute;
+        right: -70px;
+        height: 70%;
+        top: 43px;
+        width: 80%;
+    }
+
+    section.slider .slider-carousel .carousel-control-prev,
+    section.slider .slider-carousel .carousel-control-next {
+        margin-top: 70px;
+    }
+
+    footer.footer .top-footer .widget .list-inline-item a {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    header.header .overlay {
+        padding-top: 0;
+        padding-bottom: 400px;
+        text-align: center;
+    }
+
+    header.header .overlay .header-img img {
+        bottom: -70px;
+        right: 25%;
+    }
+
+    section.feature .features {
+        margin-top: 50px;
+    }
+
+    section.option {
+        padding-top: 3%;
+        padding-bottom: 400px;
+    }
+
+    section.option .option-img img {
+        position: absolute;
+        right: -10px;
+        width: 100%;
+        top: 500px;
+    }
+
+    section.slider .slider-carousel .carousel-control-prev, 
+    section.slider .slider-carousel .carousel-control-next {
+        display: none;
+    }
+
+    section.slider .slider-carousel .carousel-inner {
+        width: 90%;
+    }
+}
